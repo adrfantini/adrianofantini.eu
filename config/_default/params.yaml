@@ -18,10 +18,9 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    description: 'Personal site of Adriano Fantini'
   analytics:
-    google_analytics: ''
+    google_analytics: 'UA-139129084-1'
     baidu_tongji: ''
   verification:
     google: ''
@@ -32,18 +31,18 @@ marketing:
 header:
   navbar:
     enable: true
-    align: l
+    align: c
     show_logo: true
-    show_language: false
+    show_language: true
     show_day_night: true
-    show_search: true
+    show_search: false
     highlight_active_link: true
 
 # Site footer
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: © {year} Adriano Fantini · I authorise the treatment of my personal data under article 13 of the GDPR (UE regulation 2016/679) exclusively for staff selection and recruiting purposes · [Site sources](https://github.com/adrfantini/adrianofantini.eu)
     license:
       enable: true
       allow_derivatives: false
@@ -53,8 +52,8 @@ footer:
 # Localization
 
 locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
+  date_format: '2 Jan 2006'
+  time_format: '15:04'
   address_format: en-us
 
 # Site features
@@ -68,7 +67,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/adrfantini/adrianofantini.eu'
     content_dir: content
     branch: main
   avatar:
